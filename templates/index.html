@@ -6,15 +6,28 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <title>My Works</title>
 </head>
+
 <body>
+
+
   <div class="container">
     <div class="py-5 text-center">
-      <h1>My works!</h1>
-      <button type="submit" class="btn btn-primary">test</button>
+      <form action="/" method="POST">
+      	<input type="text" name="data">
+      	<button type="submit" class="btn btn-primary">test</button>
+      </form>
     </div>
+    {% if datas %}
+		{% for key, value in datas.items() %}
+			<b>{{ key }}</b>: {{ value }}
+			<br>
+		{% endfor %}
+  	{% endif %}
   </div>
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>
