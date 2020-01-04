@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 <title>My Works</title>
 </head>
 
@@ -12,10 +13,15 @@
 
   <div class="container">
     <div class="py-5 text-center">
-      <form action="/" method="POST">
-      	<input type="text" name="data">
-      	<button type="submit" class="btn btn-primary">test</button>
-      </form>
+    	<a href="/">
+    		<img class="github_img" src="../static/images/github.png">
+    	</a>
+    	<h1 class="site_title">Github Username</h1>
+      	<form class="text_form" action="/" method="POST">
+      		<input class="site_input" type="text" name="data" size="25">
+      		<br><br>
+      		<button type="submit" class="btn submit_button">Submit</button>
+      	</form>
     </div>
     {% if datas %}
 		{% for key, value in datas.items() %}

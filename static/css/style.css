@@ -1,0 +1,47 @@
+body{
+ background: #283043
+}
+
+.github_img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}
+
+.github_img:hover{
+	background-color: yellow;
+}
+
+.site_title{
+	color: #FFFFFF;
+	margin-top: 5%;
+}
+
+.text_form{
+	margin-top: 3%;
+}
+
+.site_input{
+	background-color: #a2b4c3;
+	color: #1a203c;
+	border: 0px;
+	border-radius: 6px;
+}
+
+.site_input:hover{
+	text-decoration: underline;
+}
+
+.submit_button{
+	background-color: #44586a;
+	color: white;
+	width: 100px;
+	height: 40px;
+}
+
+.submit_button:hover{
+	padding: 10px 24px;
+	height: 50px;
+	text-decoration: underline;
+	background-color: #a2b6c4;
+}
