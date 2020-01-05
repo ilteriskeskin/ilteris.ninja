@@ -10,26 +10,35 @@
 
 <body>
 
+	<div class="container">
+		<div class="py-5 text-center">
+			<a href="/">
+				<img class="github_img" src="../static/images/github.png">
+			</a>
+			<h1 class="site_title">Github Username</h1>
+		  	<form class="text_form" action="/" method="POST">
+		  		<input class="site_input" type="text" name="data" size="25">
+		  		<br><br>
+		  		<button type="submit" class="btn submit_button">Submit</button>
+		  	</form>
+		</div>
+		<div class="main_content">
+			{% if datas %}
+				{% for key, value in datas.items() %}
+					<p class="content">{{ key }}: {{ value }}</p>
+				{% endfor %}
+				<br>
+				<div id="react_div">
+				</div>
+			{% endif %}
+		</div>
+	</div>
 
-  <div class="container">
-    <div class="py-5 text-center">
-    	<a href="/">
-    		<img class="github_img" src="../static/images/github.png">
-    	</a>
-    	<h1 class="site_title">Github Username</h1>
-      	<form class="text_form" action="/" method="POST">
-      		<input class="site_input" type="text" name="data" size="25">
-      		<br><br>
-      		<button type="submit" class="btn submit_button">Submit</button>
-      	</form>
-    </div>
-    {% if datas %}
-		{% for key, value in datas.items() %}
-			<b>{{ key }}</b>: {{ value }}
-			<br>
-		{% endfor %}
-  	{% endif %}
-  </div>
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+<script type="text/javascript"
+        src="{{ url_for('static', filename='js/started.js') }}"></script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>

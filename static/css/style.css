@@ -14,11 +14,11 @@ body{
 
 .site_title{
 	color: #FFFFFF;
-	margin-top: 5%;
+	margin-top: 20px;
 }
 
 .text_form{
-	margin-top: 3%;
+	margin-top: 14px;
 }
 
 .site_input{
@@ -44,4 +44,23 @@ body{
 	height: 50px;
 	text-decoration: underline;
 	background-color: #a2b6c4;
+}
+
+.main_content{
+	margin-left: 10%;
+}
+
+.content{
+	font-weight: 600p;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+#react_div{
+	margin-bottom: 14%;
+}
+
+.react_p_tag{
+	color: #FFFFFF;
+	font-size: 14px;
 }
