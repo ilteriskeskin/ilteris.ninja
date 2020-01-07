@@ -9,7 +9,7 @@ app.config['SECRET_KEY'] = 'linuxdegilgnulinux'
 def base():
 	ip_addr = request.environ.get('HTTP_X_REAL_IP', request.remote_addr)
 	file = open('ip.txt', 'a')
-	file.write(ip_addr)
+	file.write(ip_addr + '\n')
 	file.close()
 
 	if request.method == 'POST':
