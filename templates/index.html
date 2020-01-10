@@ -16,10 +16,12 @@
 				<img class="github_img" src="../static/images/github.png">
 			</a>
 			<h1 class="site_title">Github Username</h1>
-		  	<form class="text_form" action="/" method="POST">
+		  	<form class="text_form" action="/" method="POST" name="myForm">
 		  		<input class="site_input" type="text" name="data" size="25">
 		  		<br><br>
-		  		<button type="submit" class="btn submit_button">Submit</button>
+		  		<button class="btn btn-sm submit_button">
+		  			Submit
+		  		</a>
 		  	</form>
 		</div>
 		<div class="main_content">
@@ -33,6 +35,13 @@
 			{% endif %}
 		</div>
 	</div>
+
+
+<script>
+    function monsterFunction() {
+        document.myForm.submit();
+    }
+</script>
 
 <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>

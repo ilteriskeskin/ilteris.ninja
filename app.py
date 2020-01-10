@@ -7,11 +7,6 @@ app.config['SECRET_KEY'] = 'linuxdegilgnulinux'
 
 @app.route('/', methods=['GET', 'POST'])
 def base():
-	ip_addr = request.environ.get('HTTP_X_REAL_IP', request.remote_addr)
-	file = open('ip.txt', 'a')
-	file.write(ip_addr + '\n')
-	file.close()
-
 	if request.method == 'POST':
 		url = 'https://api.github.com/users/' + request.form['data']
 		response = requests.get(url)
