@@ -1,21 +1,21 @@
 <template>
-  <div id="app" class="container">
-    <router-link to="/">Home</router-link>
-    <router-link to="/foo">Foo</router-link>
-    <router-link to="/bar">Bar</router-link>
-
+  <div id="app">
+    <sideBar></sideBar>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app',
-}
+  import Sidebar from "./components/Sidebar";
+
+  export default {
+    name: 'app',
+    components: {
+      sideBar: Sidebar,
+    }
+  }
 </script>
 
 <style>
-#app {
-  margin-top: 100px;
-}
+
 </style>
