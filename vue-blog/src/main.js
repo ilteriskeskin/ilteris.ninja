@@ -1,19 +1,19 @@
 import Vue from 'vue';
 import App from './App.vue';
-
 import VueRouter from "vue-router";
+import Home from "./components/Home";
+import About from "./components/About";
+import Blog from "./components/Blog";
+import Advices from "./components/Advices";
 
 Vue.use(VueRouter);
 
-import Home from "./components/Home";
-import Advices from "./components/Advices";
-import About from "./components/About";
-
 const router = new VueRouter({
   routes: [
-    { path: '/', component: Home, name: 'Home' },
-    { path: '/advices', component: Advices, name: 'Advices' },
-    { path: '/about', component: About, name: 'About' },
+    {path: '/', component: Home, name: 'Home'},
+    {path: '/about', component: About, name: 'About'},
+    {path: '/blog', component: Blog, name: 'Blog'},
+    {path: '/advices', component: Advices, name: 'Advices'},
   ],
   mode: 'history',
 });
@@ -21,5 +21,5 @@ const router = new VueRouter({
 new Vue({
   el: '#app',
   router,
-  render: h => h(App),
+  render: h => h(App)
 });
