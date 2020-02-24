@@ -25,7 +25,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 centered">
-            <img src="../assets/img/user.png" alt="Stanley">
+            <img src="../assets/img/pp.jpg" width="150" height="150" style="border-radius: 100%">
             <h1>Selam, Web Siteme Hoş Geldin!</h1>
             <p>Herkese selam. Web sitemin tasarımıyla birlikte alt yapısını da değiştirdim. Web sitem artık Vue.js
             teknolojisi ile yayında.</p>
