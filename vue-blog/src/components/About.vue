@@ -51,15 +51,19 @@
 </script>
 
 <style scoped>
+  @import url('https://fonts.googleapis.com/css?family=Spartan:300,400,700,900&display=swap');
 
   li, span {
     font-family: fantasy;
   }
 
   .aboutH2 {
-    font-weight: bold;
+    font-weight: 900;
     margin-bottom: 20px;
-    font-family: "Droid Serif";
+
+
+    font-family: 'Spartan', sans-serif;
+
   }
 
   .aboutP {
