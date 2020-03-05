@@ -60,8 +60,6 @@
   .aboutH2 {
     font-weight: 900;
     margin-bottom: 20px;
-
-
     font-family: 'Spartan', sans-serif;
 
   }

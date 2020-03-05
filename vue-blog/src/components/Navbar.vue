@@ -20,9 +20,6 @@
           <li class="nav-item active">
             <a href="/old_blog/index.html" class="nav-link" target="_blank">Eski Blogum</a>
           </li>
-          <li class="nav-item active">
-            <router-link to="/contact" class="nav-link">İletişim</router-link>
-          </li>
         </ul>
       </div>
     </nav>
@@ -41,5 +38,6 @@
   *{
     font-family: "Ubuntu";
   }
+
 
 </style>

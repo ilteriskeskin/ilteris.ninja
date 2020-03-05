@@ -1,41 +1,28 @@
 <template>
-  <div id="app">
+  <div id="app" class="main">
     <div class="container">
 
-      <new1></new1>
-      <router-link :to="postsLink(1)">Devamını Oku</router-link>
 
-      <hr class="homeHr">
+<!--      <router-link :to="{ name: 'Post', params: { id: 1 } }">Devamını Oku</router-link>-->
 
-      <new2></new2>
-      <router-link :to="postsLink(2)">Devamını Oku</router-link>
+<!--      <hr class="homeHr">-->
+
+<!--      <router-link :to="{ name: 'Post', params: { id: 1 } }">Devamını Oku</router-link>-->
+
 
     </div>
   </div>
 </template>
 
 <script>
-  import new1 from './articles/new1.md';
-  import new2 from './articles/new2.md';
-
   export default {
     name: "Home",
-    components: {
-      new1,
-      new2,
-    },
+
     data() {
       return {
         id: 0,
       }
     },
-
-    methods: {
-      postsLink(id) {
-        this.id = id;
-        return `/posts/${id}/post`;
-      },
-    }
   }
 </script>
 
@@ -46,6 +33,10 @@
     border-radius: 4px;
     margin-top: 5%;
     margin-bottom: 5%;
+  }
+
+  .main {
+    margin-bottom: calc(7% + 10px);
   }
 
 </style>

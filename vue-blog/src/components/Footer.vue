@@ -2,7 +2,12 @@
   <div>
     <div class="div-footer">
       <p>
-        aliilteriskeskin@gmail.com | @ilteriskeskin
+        aliilteriskeskin@gmail.com
+      </p>
+      <p>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-github"></a>
+        <a href="#" class="fa fa-linkedin"></a>
       </p>
     </div>
   </div>
@@ -20,16 +25,36 @@
     padding: 0;
   }
 
+  p {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  a{
+    margin-left: 14px;
+    color: #f2f2f2;
+  }
+
+  a:hover{
+    color: deepskyblue;
+    text-decoration: none;
+    width: 35px;
+  }
+
   .div-footer {
     position: fixed;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 6%;
+    height: auto;
+    padding: 10px;
     color: #f2f2f2;
     background-color: #343a40;
   }
+
 </style>

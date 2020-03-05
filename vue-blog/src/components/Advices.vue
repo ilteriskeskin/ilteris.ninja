@@ -91,10 +91,12 @@
 </script>
 
 <style scoped>
+  @import url('https://fonts.googleapis.com/css?family=Spartan:300,400,700,900&display=swap');
+
   .advicesH2 {
-    font-weight: bold;
+    font-weight: 900;
     margin-bottom: 20px;
-    font-family: "Droid Serif";
+    font-family: 'Spartan', sans-serif;
   }
 
   .advices-a:link {
