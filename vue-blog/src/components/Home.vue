@@ -2,12 +2,11 @@
   <div id="app" class="main">
     <div class="container">
 
+      <new1></new1>
+      <router-link :to="{ name: 'Post', params: { id: 1 } }">Devamını Oku</router-link>
+      <hr class="homeHr">
 
-<!--      <router-link :to="{ name: 'Post', params: { id: 1 } }">Devamını Oku</router-link>-->
-
-<!--      <hr class="homeHr">-->
-
-<!--      <router-link :to="{ name: 'Post', params: { id: 1 } }">Devamını Oku</router-link>-->
+      <!--      <router-link :to="{ name: 'Post', params: { id: 1 } }">Devamını Oku</router-link>-->
 
 
     </div>
@@ -15,8 +14,13 @@
 </template>
 
 <script>
+  import new1 from '../articles/new1.md';
+
   export default {
     name: "Home",
+    components: {
+      new1,
+    },
 
     data() {
       return {
