@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="main">
     <div class="container">
 
       <h2 class="advicesH2">
@@ -92,6 +92,10 @@
 
 <style scoped>
   @import url('https://fonts.googleapis.com/css?family=Spartan:300,400,700,900&display=swap');
+
+  .main {
+    margin-bottom: calc(7% + 10px);
+  }
 
   .advicesH2 {
     font-weight: 900;

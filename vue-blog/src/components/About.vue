@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="main">
     <div class="container">
 
       <h2 class="aboutH2">
@@ -54,7 +54,11 @@
   @import url('https://fonts.googleapis.com/css?family=Spartan:300,400,700,900&display=swap');
 
   li, span {
-    font-family: fantasy;
+    font-family: 'Spartan', sans-serif;
+  }
+
+  .main {
+    margin-bottom: calc(7% + 10px);
   }
 
   .aboutH2 {
@@ -65,7 +69,7 @@
   }
 
   .aboutP {
-    font-family: "fantasy";
+    font-family: 'Spartan', sans-serif;
   }
 
 </style>
