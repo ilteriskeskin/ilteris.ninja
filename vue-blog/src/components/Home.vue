@@ -1,39 +1,37 @@
 <template>
   <div id="app" class="main">
     <div class="container">
-
-      <new1></new1>
-      <router-link :to="{ name: 'Post', params: { id: 1 } }">Devamını Oku</router-link>
-      <hr class="homeHr">
-
-      <!--      <router-link :to="{ name: 'Post', params: { id: 1 } }">Devamını Oku</router-link>-->
-
-
+      <div class="posts" v-for="post in posts">
+        <h3 class="postTitle">{{ post.title }}</h3>
+        <p class="postPreview">{{ post.preview }}</p>
+        <p class="postDate">Paylaşılma Tarihi: {{ post.date }}</p>
+        <router-link :to="{ name: 'Post', params: { id: post.id } }">Devamını Oku</router-link>
+        <hr class="homeHr">
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-  import new1 from '../articles/new1.md';
+  import jsonPosts from '../statics/posts/new1';
 
   export default {
     name: "Home",
-    components: {
-      new1,
-    },
-
     data() {
       return {
-        id: 0,
+        posts: [],
       }
     },
+    created() {
+      this.posts = jsonPosts.posts;
+    }
   }
 </script>
 
 <style scoped>
 
   .homeHr {
-    border: 4px solid #343a40;
+    border: 1px solid #343a40;
     border-radius: 4px;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -41,6 +39,19 @@
 
   .main {
     margin-bottom: calc(7% + 10px);
+  }
+
+  .postTitle {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .postPreview {
+
+  }
+
+  .postDate {
+    font-style: italic;
   }
 
 </style>

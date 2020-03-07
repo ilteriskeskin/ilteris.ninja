@@ -5,9 +5,9 @@
         aliilteriskeskin@gmail.com
       </p>
       <p>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-github"></a>
-        <a href="#" class="fa fa-linkedin"></a>
+        <a href="https://twitter.com/ilteriskeskin" class="fa fa-twitter" target="_blank"></a>
+        <a href="https://github.com/ilteriskeskin/" class="fa fa-github" target="_blank"></a>
+        <a href="https://www.linkedin.com/in/aliilteriskeskin/" class="fa fa-linkedin" target="_blank"></a>
       </p>
     </div>
   </div>
