@@ -25,7 +25,7 @@
           Para kazanmak için Python, Django, Flask ile hobi olarak C++ ile ilgileniyorum.
         </li>
         <li>
-          Okulun bana bir şey katmadığını sadece diploma için okudumu düşünüyorum.
+          Okulun bana bir şey katmadığını sadece diploma için okuduğumu düşünüyorum.
         </li>
         <li>
           Yeni şeyler öğrenmek kurcalamak çok keyif veriyor.
