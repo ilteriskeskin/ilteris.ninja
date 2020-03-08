@@ -94,27 +94,28 @@
   @import url('https://fonts.googleapis.com/css?family=Spartan:300,400,700,900&display=swap');
 
   .main {
-    margin-bottom: calc(7% + 10px);
+    margin-bottom: calc(20% + 10px);
   }
 
   .advicesH2 {
     font-weight: 900;
     margin-bottom: 20px;
     font-family: 'Spartan', sans-serif;
+    color: #f2f2f2;
   }
 
   .advices-a:link {
-    color: #000000;
+    color: #d1cec9;
     text-decoration: none;
   }
 
   .advices-a:visited {
-    color: #000000;
+    color: #d1cec9;
     text-decoration: none;
   }
 
   .advices-span {
-    color: #000000;
+    color: #d1cec9;
   }
 
 
@@ -125,12 +126,13 @@
   #advices-li {
     line-height: 2em;
     font-style: italic;
+    color: #d1cec9;
   }
 
   .advices-hr {
     margin-top: 4%;
     margin-bottom: 4%;
-    color: peru;
+    border: 1px solid #d1cec9;
   }
 
 </style>

@@ -2,8 +2,10 @@
   <div id="app" class="main">
     <div class="container">
 
+      <img src="../assets/img/pp.jpg" class="ppImg">
+      
       <h2 class="aboutH2">
-        Kim lan bu İlteriş Keskin?
+        Kim bu İlteriş Keskin?
       </h2>
 
       <span>
@@ -11,7 +13,7 @@
       yazılım geliştirici olarak çalışıyorum. Boş vakitlerimde ise yeni şeyler öğrenmek için ve özgür yazılım lisanslı, açık
       kaynak kodlu yazılımlar geliştirmek için vakit harcıyorum.
       </span>
-      <hr>
+      <hr class="aboutHr">
       <ul>
         <li>
           5 yıldır GNU/Linux dağıtımları (şu an Ubuntu 19.10) kullanıyorum.
@@ -53,23 +55,44 @@
 <style scoped>
   @import url('https://fonts.googleapis.com/css?family=Spartan:300,400,700,900&display=swap');
 
+
+  img {
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 200px;
+  }
+
   li, span {
     font-family: 'Spartan', sans-serif;
+    color: #d1cec9;
   }
 
   .main {
-    margin-bottom: calc(7% + 10px);
+    margin-bottom: calc(20% + 10px);
   }
 
   .aboutH2 {
     font-weight: 900;
     margin-bottom: 20px;
     font-family: 'Spartan', sans-serif;
-
+    color: #f2f2f2;
   }
 
   .aboutP {
     font-family: 'Spartan', sans-serif;
+    color: #d1cec9;
   }
 
+  .aboutHr {
+    border: 1px solid #d1cec9;;
+  }
+
+  .ppImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 100%;
+  }
 </style>

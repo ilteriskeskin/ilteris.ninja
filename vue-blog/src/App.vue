@@ -22,7 +22,7 @@
 <style>
 
   body {
-    background-color: #f2f2f2;
+    background-color: #1c1e1f;
   }
 
 </style>

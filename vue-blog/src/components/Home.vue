@@ -31,27 +31,29 @@
 <style scoped>
 
   .homeHr {
-    border: 1px solid #343a40;
+    border: 1px solid #d1cec9;;
     border-radius: 4px;
     margin-top: 5%;
     margin-bottom: 5%;
   }
 
   .main {
-    margin-bottom: calc(7% + 10px);
+    margin-bottom: calc(20% + 10px);
   }
 
   .postTitle {
     font-weight: bold;
     margin-bottom: 20px;
+    color: #f2f2f2;
   }
 
   .postPreview {
-
+    color: #d1cec9;
   }
 
   .postDate {
     font-style: italic;
+    color: #d1cec9;
   }
 
 </style>

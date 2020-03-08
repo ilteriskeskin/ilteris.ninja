@@ -44,20 +44,23 @@
   }
 
   .main {
-    margin-bottom: calc(7% + 10px);
+    margin-bottom: calc(20% + 10px);
   }
 
   .postContent {
     line-height: 30px;
+    color: #d1cec9;
   }
 
   .postDate {
     margin-top: 15px;
+    color: #d1cec9;
   }
 
   .postTitle {
     margin-bottom: 20px;
     font-weight: bold;
+    color: #f2f2f2;
   }
 
 </style>
