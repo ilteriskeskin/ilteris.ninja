@@ -1,24 +1,24 @@
 <template>
   <div id="app" class="main">
     <div class="container">
-      <h3 class="postTitle">{{ post.title }}</h3>
-      <p class="postContent">{{ post.content }}</p>
-      <img :src="post.image">
-      <p class="postDate">{{ post.date }}</p>
+      <VueIntroduction v-if="id == 1"></VueIntroduction>
     </div>
   </div>
 </template>
 
 <script>
-  import jsonPosts from '../statics/posts/new1';
+  import VueIntroduction from "./posts/VueIntroduction";
 
   export default {
     name: "Post",
 
+    components: {
+      VueIntroduction,
+    },
+
     data() {
       return {
         id: this.$route.params.id,
-        post: [],
       }
     },
 
@@ -27,40 +27,12 @@
         this.id = to.params.id;
       },
     },
-
-    created() {
-      this.post = jsonPosts.posts[this.id - 1];
-    }
   }
 </script>
 
 <style scoped>
-
-  img {
-    width: 100%;
-    max-width: 600px;
-    height: 100%;
-    max-height: 500px;
-  }
-
   .main {
-    margin-bottom: calc(20% + 10px);
-  }
-
-  .postContent {
-    line-height: 30px;
-    color: #d1cec9;
-  }
-
-  .postDate {
-    margin-top: 15px;
-    color: #d1cec9;
-  }
-
-  .postTitle {
-    margin-bottom: 20px;
-    font-weight: bold;
-    color: #f2f2f2;
+    margin-bottom: calc(15% + 10px);
   }
 
 </style>

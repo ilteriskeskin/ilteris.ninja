@@ -13,7 +13,7 @@
 </template>
 
 <script>
-  import jsonPosts from '../statics/posts/new1';
+  import jsonPosts from '../statics/posts/posts';
 
   export default {
     name: "Home",
@@ -38,7 +38,7 @@
   }
 
   .main {
-    margin-bottom: calc(20% + 10px);
+    margin-bottom: calc(15% + 10px);
   }
 
   .postTitle {

@@ -91,16 +91,13 @@
 </script>
 
 <style scoped>
-  @import url('https://fonts.googleapis.com/css?family=Spartan:300,400,700,900&display=swap');
-
   .main {
-    margin-bottom: calc(20% + 10px);
+    margin-bottom: calc(15% + 10px);
   }
 
   .advicesH2 {
     font-weight: 900;
     margin-bottom: 20px;
-    font-family: 'Spartan', sans-serif;
     color: #f2f2f2;
   }
 

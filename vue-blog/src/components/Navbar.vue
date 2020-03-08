@@ -35,9 +35,5 @@
 
 <style scoped>
 
-  *{
-    font-family: "Ubuntu";
-  }
-
 
 </style>

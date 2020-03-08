@@ -3,13 +3,13 @@
     <div class="container">
 
       <img src="../assets/img/pp.jpg" class="ppImg">
-      
+
       <h2 class="aboutH2">
         Kim bu İlteriş Keskin?
       </h2>
 
       <span>
-        Ben Ali İlteriş Keskin. <a href="https://heybooster.ai" class="about-a" target="_blank"><u>Heybooster</u></a>'da
+        Ali İlteriş Keskin benim. <a href="https://heybooster.ai" class="about-a" target="_blank"><u>Heybooster</u></a>'da
       yazılım geliştirici olarak çalışıyorum. Boş vakitlerimde ise yeni şeyler öğrenmek için ve özgür yazılım lisanslı, açık
       kaynak kodlu yazılımlar geliştirmek için vakit harcıyorum.
       </span>
@@ -53,9 +53,6 @@
 </script>
 
 <style scoped>
-  @import url('https://fonts.googleapis.com/css?family=Spartan:300,400,700,900&display=swap');
-
-
   img {
     width: 100%;
     max-width: 200px;
@@ -64,23 +61,20 @@
   }
 
   li, span {
-    font-family: 'Spartan', sans-serif;
     color: #d1cec9;
   }
 
   .main {
-    margin-bottom: calc(20% + 10px);
+    margin-bottom: calc(15% + 10px);
   }
 
   .aboutH2 {
     font-weight: 900;
     margin-bottom: 20px;
-    font-family: 'Spartan', sans-serif;
     color: #f2f2f2;
   }
 
   .aboutP {
-    font-family: 'Spartan', sans-serif;
     color: #d1cec9;
   }
 
