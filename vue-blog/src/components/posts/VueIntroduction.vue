@@ -64,7 +64,7 @@
   import jsonPosts from '../../statics/posts/posts';
 
   export default {
-    name: "Post",
+    name: "VueIntroduction",
 
     data() {
       return {

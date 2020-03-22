@@ -1,9 +1,17 @@
 {
   "posts": [
     {
+      "id": "2",
+      "img": "/src/assets/img/corona_image.png",
+      "title": "Vue.js ile Ülkelerdeki Corona Sayılarını Takip",
+      "preview": "Merhaba, son blog yazımın üzerinden çok zaman geçmedi ancak çok olay geçti. Dünyayı saran Covid-19 Virüsü maalesef herkesin canını sıkıyor. Bu süreçte pazar projesi olarak bir Corona Sayılarını gösteren proje çıkarmak istedim. Aslında benim için bir challenge niteliğindeydi.",
+      "date": "22-03-2020"
+    },
+    {
       "id": "1",
+      "img": "/src/assets/img/vue-logo.png",
       "title": "Vue.js Öğrenmek, Öğrenmeye Çalışmak",
-      "preview": "Bir backend geliştirici olarak neden Vue.js öğrenmeye başladım, öğrenirken nasıl bir yol izledim, ne gibi zorluklar yaşadım? Bu soruların cevabını verdiğim bir blog yazısı olacak. Ayrıca blogum artık yeni bir temaya ve altyapıya sahip. Artık blogum Vue.js ile çalışıyor. Bunun nedenlerine de değineceğim bu yazıda.",
+      "preview": "Bir backend geliştiricisi olarak neden Vue.js öğrenmeye başladım, öğrenirken nasıl bir yol izledim, ne gibi zorluklar yaşadım? Bu soruların cevabını verdiğim bir blog yazısı olacak. Ayrıca blogum artık yeni bir temaya ve altyapıya sahip. Artık blogum Vue.js ile çalışıyor. Bunun nedenlerine de değineceğim bu yazıda.",
       "date": "08-03-2020"
     }
   ]

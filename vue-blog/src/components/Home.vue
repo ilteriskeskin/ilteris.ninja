@@ -2,6 +2,7 @@
   <div id="app" class="main">
     <div class="container">
       <div class="posts" v-for="post in posts">
+        <img :src="post.img" alt="image" class="postImage">
         <h3 class="postTitle">{{ post.title }}</h3>
         <p class="postPreview">{{ post.preview }}</p>
         <p class="postDate">Paylaşılma Tarihi: {{ post.date }}</p>
@@ -54,6 +55,11 @@
   .postDate {
     font-style: italic;
     color: #d1cec9;
+  }
+
+  .postImage {
+    max-width: 100px;
+    max-height: 50px;
   }
 
 </style>
