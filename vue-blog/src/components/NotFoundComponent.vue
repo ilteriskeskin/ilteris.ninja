@@ -22,8 +22,7 @@
       <p>Page not found</p>
       <div class="buttons-con">
         <div class="action-link-wrap">
-          <a onclick="history.back(-1)" class="link-button link-back-button">Go Back</a>
-          <a href="" class="link-button">Go to Home Page</a>
+          <router-link class="link-button link-back-button" to="/">Go Home Page</router-link>
         </div>
       </div>
     </div>
