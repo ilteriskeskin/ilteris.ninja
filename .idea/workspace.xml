@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b118cda-a26a-4e0f-8e2a-1185f4dafa49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/vue-blog/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/src/components/Navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/Work.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/src/components/Work.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-blog/src/components/NotFoundComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,7 +42,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585042171320</updated>
-      <workItem from="1585042172606" duration="241000" />
+      <workItem from="1585042172606" duration="412000" />
+      <workItem from="1585044765108" duration="166000" />
+      <workItem from="1585046023620" duration="1154000" />
+      <workItem from="1585047953282" duration="306000" />
     </task>
     <servers />
   </component>

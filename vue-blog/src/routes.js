@@ -3,6 +3,7 @@ import About from "./components/About";
 import Advices from "./components/Advices";
 import Post from "./components/Post";
 import PokemonWar from "./components/PokemonWar";
+import NotFoundComponent from "./components/NotFoundComponent";
 
 export const routes = [
   {path: '/', component: Home, name: 'Home'},
@@ -10,4 +11,5 @@ export const routes = [
   {path: '/advices', component: Advices, name: 'Advices'},
   {path: '/post/:id', component: Post, name: 'Post'},
   {path: '/pokemon-war', component: PokemonWar, name: 'PokemonWar'},
+  {path: '*', component: NotFoundComponent},
 ];
