@@ -16,20 +16,12 @@ module.exports = {
           'vue-style-loader',
           'css-loader'
         ],
-      },
-      {
-        test: /\.less$/,
-        use: [
-          'vue-style-loader',
-          'css-loader',
-          'less-loader'
-        ]
-      },
-      {
+      },      {
         test: /\.vue$/,
         loader: 'vue-loader',
         options: {
-          loaders: {}
+          loaders: {
+          }
           // other vue-loader options go here
         }
       },
@@ -44,10 +36,6 @@ module.exports = {
         options: {
           name: '[name].[ext]?[hash]'
         }
-      },
-      {
-        test: /\.md$/,
-        loader: 'vue-markdown-loader'
       }
     ]
   },
@@ -66,10 +54,10 @@ module.exports = {
     hints: false
   },
   devtool: '#eval-source-map'
-};
+}
 
 if (process.env.NODE_ENV === 'production') {
-  module.exports.devtool = '#source-map';
+  module.exports.devtool = '#source-map'
   // http://vue-loader.vuejs.org/en/workflow/production.html
   module.exports.plugins = (module.exports.plugins || []).concat([
     new webpack.DefinePlugin({
