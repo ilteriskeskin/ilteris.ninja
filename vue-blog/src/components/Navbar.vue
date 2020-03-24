@@ -18,9 +18,6 @@
         </ul>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <router-link to="/work" class="nav-link">Vue Alıştırmaları</router-link>
-          </li>
-          <li class="nav-item active">
             <a href="/old_blog/index.html" class="nav-link" target="_blank">Eski Blogum</a>
           </li>
         </ul>
