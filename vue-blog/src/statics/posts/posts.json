@@ -1,6 +1,13 @@
 {
   "posts": [
     {
+      "id": "3",
+      "img": "src/assets/img/chart.png",
+      "title": "Vue.js ile Basit Grafik Kullanımı",
+      "preview": "Merhaba, son blog yazımın üzerinden biraz zaman geçmiş.heybooster'da ihtiyacımız olan ve kullandığımız bir kütüphaneden bahsedeceğim.",
+      "date": "30-04-2020"
+    },
+    {
       "id": "2",
       "img": "/src/assets/img/corona_image.png",
       "title": "Vue.js ile Ülkelerdeki Corona Sayılarını Takip",

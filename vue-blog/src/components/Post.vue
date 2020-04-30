@@ -3,6 +3,7 @@
     <div class="container">
       <VueIntroduction v-if="id == 1"></VueIntroduction>
       <CoronaCounterApp v-if="id == 2"></CoronaCounterApp>
+      <BasicChart v-if="id == 3"></BasicChart>
     </div>
   </div>
 </template>
@@ -10,6 +11,7 @@
 <script>
   import VueIntroduction from "./posts/VueIntroduction";
   import CoronaCounterApp from "./posts/CoronaCounterApp";
+  import BasicChart from "./posts/BasicChart";
 
   export default {
     name: "Post",
@@ -17,6 +19,7 @@
     components: {
       VueIntroduction,
       CoronaCounterApp,
+      BasicChart,
     },
 
     data() {

@@ -64,7 +64,7 @@
     },
 
     created() {
-      this.post = jsonPosts.posts[this.id - 2];
+      this.post = jsonPosts.posts[1];
     }
   }
 </script>

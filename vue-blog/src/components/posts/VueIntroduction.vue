@@ -80,7 +80,7 @@
     },
 
     created() {
-      this.post = jsonPosts.posts[this.id - 1];
+      this.post = jsonPosts.posts[2];
     }
   }
 </script>
