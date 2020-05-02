@@ -3,8 +3,8 @@
     {
       "id": "4",
       "img": "/src/assets/img/linux_logo.png",
-      "title": "GNU/linux Sistemlerde Paket Kurma/Silme/Arama İşlemleri",
-      "preview": "Herkese selam, bu yazımda GNU/Linux sistemlerde paket kurmayı, silmeyi ve aramayı anlatacağım. Şu anda güncel olarak Ubuntu 20.04 kullandığım için Apt ve Snapten bahsedeceğim.",
+      "title": "GNU/linux Sistemlerde Paket Yönetimi",
+      "preview": "Herkese selam, bu yazımda GNU/Linux sistemlerde paket yönetimini anlatacağım. Şu anda güncel olarak Ubuntu 20.04 kullandığım için Apt ve Snap'ten bahsedeceğim.",
       "date": "03-04-2020",
       "category": "linux"
     },
