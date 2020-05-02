@@ -16,6 +16,20 @@
 
       <ul id="advices-li">
         <li>
+          <a href="https://twitter.com/odayibasi/status/1241073224433258496" target="_blank" class="advices-a">"Javascript'in
+            Tarihçesi yazılarında; JS'deki hangi ihtiyaçlardan dolayı dilin geliştiği ve yenilendiğini anlatıyorum"</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/GurayYildirimTR/status/1239921430294298625" target="_blank" class="advices-a">"Çoğumuzun
+            yoluna sıkça çıkan CORS’taki yanlış yapılandırmaları tarayıp bulması amacıyla geliştirilen proje: Corsy"</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/ademilter/status/1239861601324478465" target="_blank" class="advices-a">"JavaScript
+            için başlangıç rehberi. Yazılı olarak en derli toplu kaynak.
+
+            * 3 bölümden oluşuyor ve 1. bölümün türkçe çevirisi yapılmış."</a>
+        </li>
+        <li>
           <a href="https://twitter.com/linuxcu/status/1230726281458675712?s=09" target="_blank" class="advices-a">"Test
             veya ufak tefek işler için ufak
             bir

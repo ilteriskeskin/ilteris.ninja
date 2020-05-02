@@ -5,6 +5,7 @@
       <CoronaCounterApp v-if="id == 1"></CoronaCounterApp>
       <BasicChart v-if="id == 2"></BasicChart>
       <InstallZshOnFedora v-if="id == 3"></InstallZshOnFedora>
+      <GnuLinuxPackageManagement v-if="id == 4"></GnuLinuxPackageManagement>
     </div>
   </div>
 </template>
@@ -14,6 +15,7 @@
   import CoronaCounterApp from "./posts/CoronaCounterApp";
   import BasicChart from "./posts/BasicChart";
   import InstallZshOnFedora from "./posts/InstallZshOnFedora";
+  import GnuLinuxPackageManagement from "./posts/GnuLinuxPackageManagement";
 
   export default {
     name: "Post",
@@ -23,6 +25,7 @@
       CoronaCounterApp,
       BasicChart,
       InstallZshOnFedora,
+      GnuLinuxPackageManagement,
     },
 
     data() {

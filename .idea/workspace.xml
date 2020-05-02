@@ -1,26 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:vue-blog" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3b118cda-a26a-4e0f-8e2a-1185f4dafa49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/archives.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/archives.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/authors.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/authors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/djangogirlstrabzon.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/djangogirlstrabzon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/dogruparcasi.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/dogruparcasi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/fedorazshkurulum.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/fedorazshkurulum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/flaskapp.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/flaskapp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/flaskipaddr.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/flaskipaddr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/flaskkayit.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/flaskkayit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/flaskmongodb.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/flaskmongodb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/gitnedir.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/gitnedir.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/goruntuisleme.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/goruntuisleme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/index3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/index4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/index5.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/index5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/index6.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/index6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/kotlinactivity.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/old_blog/kotlinactivity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-blog/src/components/Categories.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-blog/src/components/posts/GnuLinuxPackageManagement.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/Advices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/src/components/Advices.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/Chart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/src/components/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/Post.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/src/components/Post.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/posts/BasicChart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/src/components/posts/BasicChart.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/posts/InstallZshOnFedora.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/src/components/posts/InstallZshOnFedora.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/statics/posts/posts.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-blog/src/statics/posts/posts.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,18 +94,38 @@
       <workItem from="1585046023620" duration="1154000" />
       <workItem from="1585047953282" duration="306000" />
       <workItem from="1585606245612" duration="456000" />
-      <workItem from="1588273987282" duration="388000" />
+      <workItem from="1588273987282" duration="1361000" />
+      <workItem from="1588330681845" duration="17000" />
+      <workItem from="1588334813739" duration="810000" />
+      <workItem from="1588428269254" duration="3870000" />
+      <workItem from="1588454308048" duration="7853000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="693" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585042495489">
+    <state x="693" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588458525763">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="693" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585042495489" />
+    <state x="693" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1588458525763" />
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1588335722455">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1588335722455" />
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1588274170705">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

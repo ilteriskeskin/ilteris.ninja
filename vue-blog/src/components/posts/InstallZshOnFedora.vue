@@ -4,7 +4,7 @@
       <img src="../../assets/img/fedora_logo.png" alt="">
       <h3 class="postTitle">Fedora ZSH Kurulumu</h3>
       <p class="postContent">
-        Merhaba ardakaşlar. Bu yazımda şuanda kullandığım Fedora 29 üzerine zsh kabuğunun kurulumunu anlatacağım.
+        Merhaba ardakaşlar. Bu yazımda şu anda kullandığım Fedora 29 üzerine zsh kabuğunun kurulumunu anlatacağım.
       </p>
 
       <hr>

@@ -15,11 +15,14 @@
           <li class="nav-item active">
             <router-link to="/advices" class="nav-link">Tavsiyeler</router-link>
           </li>
+          <li class="nav-item active">
+            <router-link to="/categories" class="nav-link">Kategoriler</router-link>
+          </li>
         </ul>
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a href="/old_blog/index.html" class="nav-link" target="_blank">Eski Blogum</a>
-          </li>
+          <!--          <li class="nav-item active">
+                      <a href="/old_blog/index.html" class="nav-link" target="_blank">Eski Blogum</a>
+                    </li>-->
         </ul>
       </div>
     </nav>

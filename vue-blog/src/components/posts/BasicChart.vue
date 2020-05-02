@@ -111,4 +111,14 @@
     font-weight: bold;
     color: #f2f2f2;
   }
+
+  img {
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
 </style>
