@@ -10,8 +10,8 @@
 
       <span>
         Ali İlteriş Keskin benim. <a href="https://heybooster.ai" class="about-a" target="_blank"><u>Heybooster</u></a>'da
-      yazılım geliştirici olarak çalışıyorum. Boş vakitlerimde ise yeni şeyler öğrenmek için ve özgür yazılım lisanslı, açık
-      kaynak kodlu yazılımlar geliştirmek için vakit harcıyorum.
+        yazılım geliştirici olarak çalışıyorum. Boş vakitlerimde ise yeni şeyler öğrenmek için ve özgür yazılımlar
+        geliştirmek için vakit harcıyorum. Elimden geldiğince özgür yazılımlar kullanmaya çalışıyorum.
       </span>
       <hr class="aboutHr">
       <ul>
