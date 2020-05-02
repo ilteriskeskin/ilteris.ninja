@@ -10,8 +10,8 @@
         </trend>
       <h3 class="postTitle">{{ post.title }}</h3>
       <p class="postContent">
-        Merhaba, son blog yazımın üzerinden biraz zaman geçmiş. <a href="https://heybooster.ai">heybooster'da</a> 
-        ihtiyacımız olan ve kullandığımız bir kütüphaneden bahsedeceğim. 
+        Merhaba, son blog yazımın üzerinden biraz zaman geçmiş. <a href="https://heybooster.ai">heybooster'da</a>
+        ihtiyacımız olan ve kullandığımız bir kütüphaneden bahsedeceğim.
       </p>
 
       <hr>
@@ -48,7 +48,7 @@
       </p>
 
       <p class="postContent">
-        Projenin detaylarını <a href="https://github.com/QingWei-Li/vue-trend">kendi sayfasından</a> 
+        Projenin detaylarını <a href="https://github.com/QingWei-Li/vue-trend">kendi sayfasından</a>
         inceleyebilirsiniz. Herkese iyi çalışmalar dilerim.
       </p>
 

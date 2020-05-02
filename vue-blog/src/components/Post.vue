@@ -1,9 +1,9 @@
 <template>
   <div id="app" class="main">
     <div class="container">
-      <VueIntroduction v-if="id == 1"></VueIntroduction>
-      <CoronaCounterApp v-if="id == 2"></CoronaCounterApp>
-      <BasicChart v-if="id == 3"></BasicChart>
+      <VueIntroduction v-if="id == 0"></VueIntroduction>
+      <CoronaCounterApp v-if="id == 1"></CoronaCounterApp>
+      <BasicChart v-if="id == 2"></BasicChart>
     </div>
   </div>
 </template>
