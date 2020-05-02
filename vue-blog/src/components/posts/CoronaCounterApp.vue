@@ -2,7 +2,7 @@
   <div id="app" class="main">
     <div class="container">
       <img src="../../assets/img/corona_image.png" alt="corona_image">
-      <h3 class="postTitle">{{ post.title }}</h3>
+      <h3 class="postTitle">Vue.js ile Ülkelerdeki Corona Sayılarını Takip</h3>
       <p class="postContent">
         Merhaba, son blog yazımın üzerinden çok zaman geçmedi ancak çok olay geçti. Dünyayı saran Covid-19 Virüsü
         maalesef herkesin canını sıkıyor. Bu süreçte pazar projesi olarak bir Corona Sayılarını gösteren proje çıkarmak
@@ -16,7 +16,8 @@
       <p class="postContent">
         Uyandıktan sonra kalktım elimi yü.... şaka şaka :) İlk olarak projenin api kısmını yazıp sonrasında frontend
         kısmına geçecektim. Sonrasında güncel veriler bakmaya başladım. O sırada <a
-        href="https://github.com/pomber/covid19" target="_blank">böyle bir repoya</a> rastladım. Güncel görünüyordu ve kendi api'ı
+        href="https://github.com/pomber/covid19" target="_blank">böyle bir repoya</a> rastladım. Güncel görünüyordu ve
+        kendi api'ı
         vardı ben de bunu kullanayım dedim. Böylece backend yükünden hızlıca kurtulmuş oldum.
       </p>
 
@@ -39,13 +40,12 @@
 
       <hr>
 
-      <p class="postDate">Paylaşılma Tarihi: {{ post.date }}</p>
+      <p class="postDate">Paylaşılma Tarihi: 22-03-2020</p>
     </div>
   </div>
 </template>
 
 <script>
-  import jsonPosts from '../../statics/posts/posts';
 
   export default {
     name: "CoronaCounterApp",
@@ -53,7 +53,6 @@
     data() {
       return {
         id: this.$route.params.id,
-        post: [],
       }
     },
 
@@ -62,10 +61,6 @@
         this.id = to.params.id;
       },
     },
-
-    created() {
-      this.post = jsonPosts.posts[1];
-    }
   }
 </script>
 

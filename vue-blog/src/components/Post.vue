@@ -4,6 +4,7 @@
       <VueIntroduction v-if="id == 0"></VueIntroduction>
       <CoronaCounterApp v-if="id == 1"></CoronaCounterApp>
       <BasicChart v-if="id == 2"></BasicChart>
+      <InstallZshOnFedora v-if="id == 3"></InstallZshOnFedora>
     </div>
   </div>
 </template>
@@ -12,6 +13,7 @@
   import VueIntroduction from "./posts/VueIntroduction";
   import CoronaCounterApp from "./posts/CoronaCounterApp";
   import BasicChart from "./posts/BasicChart";
+  import InstallZshOnFedora from "./posts/InstallZshOnFedora";
 
   export default {
     name: "Post",
@@ -20,6 +22,7 @@
       VueIntroduction,
       CoronaCounterApp,
       BasicChart,
+      InstallZshOnFedora,
     },
 
     data() {

@@ -1,6 +1,13 @@
 {
   "posts": [
     {
+      "id": "3",
+      "img": "src/assets/img/fedora_logo.png",
+      "title": "Fedora ZSH Kurulumu",
+      "preview": "Merhaba ardakaşlar. Bu yazımda şuanda kullandığım Fedora 29 üzerine zsh kabuğunun kurulumunu anlatacağım.",
+      "date": "02-04-2020"
+    },
+    {
       "id": "2",
       "img": "src/assets/img/chart.png",
       "title": "Vue.js ile Basit Grafik Kullanımı",

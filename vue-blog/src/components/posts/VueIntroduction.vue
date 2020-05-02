@@ -2,7 +2,7 @@
   <div id="app" class="main">
     <div class="container">
       <img src="../../assets/img/vue-logo.png" alt="">
-      <h3 class="postTitle">{{ post.title }}</h3>
+      <h3 class="postTitle">Vue.js Öğrenmek, Öğrenmeye Çalışmak</h3>
       <p class="postContent">
         Merhaba uzun süredir blog yazmıyordum. Hem biraz yoğundum hem de boş vakitlerimi başka şeylere ayırmıştım. Ancak
         blog yazmadığım
@@ -55,13 +55,12 @@
 
       <hr>
 
-      <p class="postDate">Paylaşılma Tarihi: {{ post.date }}</p>
+      <p class="postDate">Paylaşılma Tarihi: 08-03-2020</p>
     </div>
   </div>
 </template>
 
 <script>
-  import jsonPosts from '../../statics/posts/posts';
 
   export default {
     name: "VueIntroduction",
@@ -69,7 +68,6 @@
     data() {
       return {
         id: this.$route.params.id,
-        post: [],
       }
     },
 
@@ -78,10 +76,6 @@
         this.id = to.params.id;
       },
     },
-
-    created() {
-      this.post = jsonPosts.posts[2];
-    }
   }
 </script>
 
