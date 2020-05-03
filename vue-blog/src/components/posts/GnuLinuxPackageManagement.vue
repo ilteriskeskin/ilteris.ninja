@@ -5,7 +5,7 @@
 
       <h3 class="postTitle">GNU/linux Sistemlerde Paket Yönetimi</h3>
       <p class="postContent">Herkese selam, bu yazımda GNU/Linux sistemlerde paket yönetimini anlatacağım. Şu anda
-        güncel olarak Ubuntu 20.04 kullandığım için Apt ve Snap'ten bahsedeceğim.
+        Ubuntu 20.04 kullandığım için Apt ve Snap'ten bahsedeceğim.
       </p>
 
       <h5 class="postSubTitle">Snap Nedir?</h5>

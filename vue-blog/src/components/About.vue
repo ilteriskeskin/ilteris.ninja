@@ -16,7 +16,7 @@
       <hr class="aboutHr">
       <ul>
         <li>
-          5 yıldır GNU/Linux dağıtımları (şu an Ubuntu 19.10) kullanıyorum.
+          5 yıldır GNU/Linux dağıtımları (şu an Ubuntu 20.04) kullanıyorum.
         </li>
         <li>
           5 yıldır Windows'a elimi sürmedim. (Bunun haklı gururunu yaşıyorum.)
