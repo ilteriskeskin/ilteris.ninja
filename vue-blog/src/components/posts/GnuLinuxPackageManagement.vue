@@ -13,10 +13,31 @@
         Snap GNU/Linux sistemler için paket yönetim aracıdır. 2014 yılında Canonical tarafından paketlemeyi ve paketleri
         kurmayı kolaylaştırma amacıyla oluşturulan bir yazılımdır. Snap'i ilk kullanmaya başladığımda (2-3 yıl önce) bu
         ne ya demiştim. Hiç kullanılır değil gibiydi. Sürekli bir hata veriyordu. Son 1 yıldır ise aktif kullanıyorum.
-        Uygulama marketinde veya apt depolarında olmayan birçok yazılımı tek komutla indirip kurmamı sağlıyor. Gelin
-        nasıl kullanacağımızı inceleyelim.
+        Uygulama marketinde veya apt depolarında olmayan birçok yazılımı tek komutla indirip kurmamı sağlıyor.
       </p>
 
+      <p class="postContent">
+        Snap Apt veya Yum gibi GNU/Linux dağıtımına özel paketleme yönteminden farklıdır. İş böyle olunca bazen Apt ve
+        Yum kadar hızlı olmayabilir. Snap paketlerinin herhangi bir uygulama mağzası bağımlılığı yoktur. Bazı
+        dağıtımlarda
+        varsayılan olarak yüklü gelmekte olup yüklü gelmeyenlerde tek komut ile kurulabilir.
+      </p>
+
+      <p class="postContent">
+        Snapcraft adında geliştirilen uygulamaların paketlenmesini sağlayan bir araç mevcuttur.
+      </p>
+
+      <p class="postContent">
+        Snap'in Arch Linux depolarında bulunmaması ve Ubuntu'yu geliştiren Canonical firmasının Snap'i Ubuntu için
+        daha uygun hale getirdiğinin söylentileri mevcuttur. Ayrıca "Snap'te otomatik güncellemeler kapanmadığı için
+        kritik sistemlerde Snap kullanmak riskli olabilir" söylentileri de Snap'i kullanırken tereddüt ettirecek
+        yorumlardan
+        biri.
+      </p>
+
+      <p class="postContent">
+        Gelin şimdi de nasıl kullanacağımızı inceleyelim.
+      </p>
       <hr>
 
       <h5 class="postSubTitle">Snap Nasıl Kullanılır?</h5>
@@ -99,8 +120,28 @@
       <h5 class="postSubTitle">Apt Nedir?</h5>
       <p class="postContent">
         Apt Debian tabanlı sistemlerde bir paket yönetim aracıdır. Çok sık kullandığım bir araçtır. Paket yüklemek,
-        silmek veya sistemimdeki paketleri güncellemek gibi işlemler için kullanıyorum. Peki Apt aracını kullanmak
-        için ne yapmamız gerekiyor? Gelin bakalım ne yapmamız gerekiyormuş?
+        silmek veya sistemimdeki paketleri güncellemek gibi işlemler için kullanıyorum.
+      </p>
+
+      <p class="postContent">
+        APT Advanced Package Tool (Gelişmiş Paket Aracı)'un kısaltılmış halidir. Apt öncesinde kaynak kodu
+        derlenen yazılımların paket halinde sistemimize indirip kurmamızı, güncellememizi ve silmemizi sağlayan
+        bir araçtır.
+      </p>
+
+      <p class="postContent">
+        Apt'ı terminalde kullanmak istemeyenler için apt için arayüz sunan programlar mevcuttur. Bazılarını aşağıda
+        listeleyeyim.
+      </p>
+      <ul id="advices-li">
+        <li>Synaptic</li>
+        <li>Ubuntu Software Center</li>
+        <li>Aptitude</li>
+        <li>KPackage</li>
+      </ul>
+
+      <p class="postContent">
+        Peki Apt aracını kullanmak için ne yapmamız gerekiyor? Gelin bakalım ne yapmamız gerekiyormuş?
       </p>
       <hr>
 
@@ -183,6 +224,18 @@
         Bu yazıyı burada bitiriyorum. Eğer sorun yaşarsanız bu sayfanın altındaki mail adresimden veya sosyal medya
         hesaplarımdan bana ulaşıp sorularınızı sorabilirsiniz. Herkese iyi çalışmalar diliyorum.
       </p>
+
+      <ul id="advices-li">
+        <li>
+          <a class="advices-a" href="https://wiki.debian.org/Apt">https://wiki.debian.org/Apt</a>
+        </li>
+        <li>
+          <a class="advices-a" href="https://en.wikipedia.org/wiki/Snap_(package_manager)">https://en.wikipedia.org/wiki/Snap_(package_manager)</a>
+        </li>
+        <li>
+          <a class="advices-a" href="https://en.wikipedia.org/wiki/APT_(software)">https://en.wikipedia.org/wiki/APT_(software)</a>
+        </li>
+      </ul>
       <hr>
       <p class="postDate">Paylaşılma Tarihi: 03-04-2020</p>
     </div>
@@ -253,4 +306,23 @@
     color: #f2f2f2;
   }
 
+  .advices-a:link {
+    color: #d1cec9;
+    text-decoration: none;
+  }
+
+  .advices-a:visited {
+    color: #d1cec9;
+    text-decoration: none;
+  }
+
+  li:hover {
+    font-weight: bold;
+  }
+
+  #advices-li {
+    line-height: 2em;
+    font-style: italic;
+    color: #d1cec9;
+  }
 </style>
