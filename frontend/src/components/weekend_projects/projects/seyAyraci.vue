@@ -27,8 +27,7 @@
 
     methods: {
       sey() {
-        const sey = require('sey-ayraci');
-        this.newText = sey.fix(this.text);
+        this.newText = this.text.replace("şey", " şey");
       }
     }
   }

@@ -10,7 +10,6 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "sey-ayraci": "0.0.1",
     "vue": "^2.5.11",
     "vue-router": "^3.1.6",
     "vuetrend": "^0.3.4"

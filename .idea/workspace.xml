@@ -41,7 +41,295 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b118cda-a26a-4e0f-8e2a-1185f4dafa49" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ilteris.ml.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ilteris.ml.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api/main/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/weekend_projects/projects/seyAyraci.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/weekend_projects/projects/seyAyraci.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/archives.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/author/ali-ilteris-keskin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/author/ali-ilteris-keskin2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/author/ali-ilteris-keskin3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/author/ali-ilteris-keskin4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/author/ali-ilteris-keskin5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/author/ali-ilteris-keskin6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/authors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/categories.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/category/android.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/category/django.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/category/flask.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/category/git.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/category/jekyll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/category/news.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/category/opencv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/category/pardus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/category/python3-flask.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/category/python3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/category/python32.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/category/zsh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/djangogirlstrabzon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/dogruparcasi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/fedorazshkurulum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/feeds/all.atom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/feeds/android.atom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/feeds/django.atom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/feeds/flask.atom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/feeds/git.atom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/feeds/jekyll.atom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/feeds/news.atom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/feeds/opencv.atom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/feeds/pardus.atom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/feeds/python3-flask.atom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/feeds/python3.atom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/feeds/zsh.atom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/flaskapp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/flaskipaddr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/flaskkayit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/flaskmongodb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/gitnedir.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/goruntuisleme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/404-southpark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/avatar-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/besK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/besS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/bgimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/birK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/birS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/change-code-sl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/clone-sl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/compile-sl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/dashboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/db_yazi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/djgirlstr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/giris.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/header-sl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/hello_world.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/home_yazi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/index.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/install-steps.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/kayit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/license-sl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/main-sl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/onK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/onS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/opencv-fedora.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/opencv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/p1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/p2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/p3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/pardus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/path.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/pil1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/pil2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/pil3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/pil4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/pp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/py4_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/py4_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/py4_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/py4_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/pyopencv1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/pyopencv2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/pyopencv3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/register_yazi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/run-sl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/screenfetch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/sqlitebrowser_yazi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/sss1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/sss2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/t1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/t2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/t3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/t4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/yirmiK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/images/yirmiS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/index4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/index5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/index6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/kotlinactivity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/nedengit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/nedenjekyll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/newblog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/nokulsoft.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/opencvfedorakurulum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/opencvubuntukurulum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/ozgurprojeyekatki.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/pages/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/pardus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/poetry.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/pythonemoji.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/pythongoruntuisleme1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/pythongoruntuisleme2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/pythonserisi1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/pythonserisi2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/pythonserisi3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/pythonserisi4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/android.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/django.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/djangogirls.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/emoji.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/fedora.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/flask.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/freesoftware.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/git.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/github.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/gnulinux.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/goruntu-isleme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/image-processing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/jekyll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/kotlin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/mongodb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/nokulsoft.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/opencv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/pardus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/pillow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/poetry.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/python3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/python32.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/python33.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/soruce-code.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/sqlalchemy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/turtle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/tutle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/ubuntu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/venv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tag/zsh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/font-awesome/css/brands.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/font-awesome/css/fontawesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/font-awesome/css/solid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/font-awesome/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/font-awesome/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/font-awesome/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/font-awesome/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/font-awesome/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/font-awesome/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/font-awesome/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/font-awesome/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/font-awesome/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/font-awesome/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/img/cc/by-nc-nd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/img/cc/by-nc-sa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/img/cc/by-nc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/img/cc/by-nd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/img/cc/by-sa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/img/cc/by.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/img/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/img/profile_license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/abap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/abap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/algol.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/algol.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/algol_nu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/algol_nu.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/arduino.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/arduino.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/autumn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/autumn.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/borland.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/borland.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/bw.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/bw.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/colorful.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/colorful.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/emacs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/emacs.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/friendly.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/friendly.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/fruity.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/fruity.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/github.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/github.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/igor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/igor.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/lovelace.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/lovelace.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/manni.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/manni.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/monokai.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/monokai.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/murphy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/murphy.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/native.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/native.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/paraiso-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/paraiso-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/paraiso-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/paraiso-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/pastie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/pastie.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/perldoc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/perldoc.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/rainbow_dash.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/rainbow_dash.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/rrt.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/rrt.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/solarized-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/solarized-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/tango.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/tango.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/trac.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/trac.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/vim.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/vim.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/vs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/vs.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/xcode.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/pygments/xcode.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/stylesheet/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/stylesheet/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/old_blog/theme/stylesheet/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/assets/img/chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/assets/img/corona_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/assets/img/fedora_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/assets/img/linux_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/assets/img/pp.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/assets/img/pp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/assets/img/trend.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/assets/img/vue-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/Advices.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/Categories.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/Category.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/Footer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/Navbar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/NotFoundComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/PokemonWar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/Post.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/posts/BasicChart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/posts/CoronaCounterApp.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/posts/GnuLinuxPackageManagement.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/posts/InstallZshOnFedora.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/components/posts/VueIntroduction.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/src/statics/posts/posts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-blog/webpack.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +339,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="Vue Single File Component" />
       </list>
     </option>
@@ -67,7 +356,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sey-ayraci" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/components/weekend_projects/projects" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -95,6 +390,13 @@
       <workItem from="1588714684091" duration="3994000" />
       <workItem from="1588721124111" duration="101000" />
       <workItem from="1588760413338" duration="7000" />
+      <workItem from="1588857237380" duration="1941000" />
+      <workItem from="1589033475874" duration="6000" />
+      <workItem from="1589034307647" duration="62000" />
+      <workItem from="1589042196029" duration="2259000" />
+      <workItem from="1589044607935" duration="683000" />
+      <workItem from="1589045388989" duration="525000" />
+      <workItem from="1589059832972" duration="789000" />
     </task>
     <servers />
   </component>
@@ -118,10 +420,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="693" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1588458525763" />
-    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1588499945970">
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1589045286952">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1588499945970" />
+    <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1589045286952" />
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1588274170705">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
