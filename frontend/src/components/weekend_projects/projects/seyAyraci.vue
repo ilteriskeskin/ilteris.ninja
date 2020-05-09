@@ -27,7 +27,9 @@
 
     methods: {
       sey() {
-        this.newText = this.text.replace("şey", " şey");
+        console.log("Text: ", this.text);
+        this.newText = this.text.split('şey').join(' şey');
+        console.log("New text: ", this.newText);
       }
     }
   }
