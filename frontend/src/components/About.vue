@@ -2,7 +2,7 @@
   <div id="app" class="main">
     <div class="container">
 
-      <img src="../assets/img/pp.jpg" class="ppImg">
+      <img src="../assets/img/ninja_ilto.jpg" class="ppImg">
 
       <h2 class="aboutH2">
         Kim bu İlteriş Keskin?
@@ -55,9 +55,9 @@
 <style scoped>
   img {
     width: 100%;
-    max-width: 200px;
+    max-width: 300px;
     height: 100%;
-    max-height: 200px;
+    max-height: 300px;
   }
 
   li, span {
@@ -87,6 +87,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    border-radius: 100%;
+    border-radius: 20%;
   }
 </style>
