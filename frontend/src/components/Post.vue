@@ -6,6 +6,7 @@
       <BasicChart v-if="id == 2"></BasicChart>
       <InstallZshOnFedora v-if="id == 3"></InstallZshOnFedora>
       <GnuLinuxPackageManagement v-if="id == 4"></GnuLinuxPackageManagement>
+      <PythonTricks v-if="id == 5"></PythonTricks>
     </div>
   </div>
 </template>
@@ -16,6 +17,7 @@
   import BasicChart from "./posts/BasicChart";
   import InstallZshOnFedora from "./posts/InstallZshOnFedora";
   import GnuLinuxPackageManagement from "./posts/GnuLinuxPackageManagement";
+  import PythonTricks from "./posts/PythonTricks";
 
   export default {
     name: "Post",
@@ -26,6 +28,7 @@
       BasicChart,
       InstallZshOnFedora,
       GnuLinuxPackageManagement,
+      PythonTricks,
     },
 
     data() {

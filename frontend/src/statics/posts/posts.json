@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "id": "5",
+      "img": "/src/assets/img/python_logo.png",
+      "title": "Python İpuçları",
+      "preview": "Herkese selam, bu yazımda Pyhton ile ilgili işlerimizi kolaylaştıracak bazı ipuçlarından bahsedeceğim. İşinize yarar bir yazı olmasını diliyorum :)",
+      "date": "10-05-2020",
+      "category": "python"
+    },
+    {
       "id": "4",
       "img": "/src/assets/img/linux_logo.png",
       "title": "GNU/linux Sistemlerde Paket Yönetimi",
