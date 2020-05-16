@@ -1,8 +1,16 @@
 import Vue from 'vue';
 import App from './App.vue';
 import VueRouter from "vue-router";
-import {routes} from './routes';
+import { routes } from './routes';
 import Trend from "vuetrend";
+import axios from 'axios'
+
+let baseURL = 'http://localhost:5000/'
+
+Vue.prototype.baseURL = baseURL;
+Vue.prototype.$http = axios.create({
+  baseURL: baseURL,
+})
 
 Vue.use(Trend)
 Vue.use(VueRouter);

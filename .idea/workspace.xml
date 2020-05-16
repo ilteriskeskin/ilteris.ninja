@@ -41,10 +41,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b118cda-a26a-4e0f-8e2a-1185f4dafa49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/posts/PythonTricks.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Post.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Post.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/statics/posts/posts.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/statics/posts/posts.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +112,8 @@
       <workItem from="1589064074771" duration="427000" />
       <workItem from="1589108519346" duration="3391000" />
       <workItem from="1589150186188" duration="1437000" />
+      <workItem from="1589152438674" duration="323000" />
+      <workItem from="1589188159763" duration="7000" />
     </task>
     <servers />
   </component>

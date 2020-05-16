@@ -8,6 +8,8 @@ import PokemonWar from "./components/PokemonWar";
 import Projects from "./components/weekend_projects/Projects";
 import seyAyraci from "./components/weekend_projects/projects/seyAyraci";
 
+import RandomFilm from "./components/RandomFilm";
+
 import NotFoundComponent from "./components/NotFoundComponent";
 
 export const routes = [
@@ -20,6 +22,8 @@ export const routes = [
   {path: '/pokemon-war', component: PokemonWar, name: 'PokemonWar'},
   {path: '/projects', component: Projects, name: 'projects'},
   {path: '/projects/sey-ayraci', component: seyAyraci, name: 'seyAyraci'},
+
+  {path: '/random_film', component: RandomFilm, name: 'RandomFilm'},
 
   {path: '*', component: NotFoundComponent},
 ];
