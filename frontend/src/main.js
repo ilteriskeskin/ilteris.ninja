@@ -5,7 +5,7 @@ import { routes } from './routes';
 import Trend from "vuetrend";
 import axios from 'axios'
 
-let baseURL = 'http://localhost:5000/'
+let baseURL = 'https://api.ilteris.ninja/'
 
 Vue.prototype.baseURL = baseURL;
 Vue.prototype.$http = axios.create({
