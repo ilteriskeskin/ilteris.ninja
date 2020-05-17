@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify, make_response
 from flask_cors import CORS
 import requests, json, random
-from geoip import geolite2
 import geocoder
 
 app = Flask(__name__)
