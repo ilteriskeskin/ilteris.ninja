@@ -5,10 +5,11 @@ import Categories from "./components/Categories";
 import Category from "./components/Category";
 import Post from "./components/Post";
 import PokemonWar from "./components/PokemonWar";
+
 import Projects from "./components/weekend_projects/Projects";
 import seyAyraci from "./components/weekend_projects/projects/seyAyraci";
-
-import RandomFilm from "./components/RandomFilm";
+import RandomFilm from "./components/weekend_projects/projects/RandomFilm";
+import InfoIpAddr from "./components/weekend_projects/projects/InfoIpAddr";
 
 import NotFoundComponent from "./components/NotFoundComponent";
 
@@ -21,9 +22,10 @@ export const routes = [
   {path: '/post/:id', component: Post, name: 'Post'},
   {path: '/pokemon-war', component: PokemonWar, name: 'PokemonWar'},
   {path: '/projects', component: Projects, name: 'projects'},
-  {path: '/projects/sey-ayraci', component: seyAyraci, name: 'seyAyraci'},
 
+  {path: '/projects/sey-ayraci', component: seyAyraci, name: 'seyAyraci'},
   {path: '/random_film', component: RandomFilm, name: 'RandomFilm'},
+  {path: '/info_ip_addr', component: InfoIpAddr, name: 'InfoIpAddr'},
 
   {path: '*', component: NotFoundComponent},
 ];

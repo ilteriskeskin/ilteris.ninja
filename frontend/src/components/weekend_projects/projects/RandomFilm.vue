@@ -1,9 +1,9 @@
 <template>
   <div id="app" class="main">
     <div class="container">
-      <h2>My Flask API Test Page</h2>
-      <button class="btn btn-success" @click="getRandomFilm">Get Random Film</button>
-      <button class="btn btn-warning" @click="clearFilms">Clear Screen</button>
+      <h2>Rasgele Film Bilgilerini Gösteren Proje</h2>
+      <button class="btn btn-success" @click="getRandomFilm">Rasgele Film Göster</button>
+      <button class="btn btn-warning" @click="clearFilms">Ekranı Temizle</button>
 
       <div class="listDiv" v-if="value === 'random'">
         <img :src="datas.Poster" alt="poster" />

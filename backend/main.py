@@ -1,8 +1,11 @@
 from flask import Flask, request, jsonify, make_response
 from flask_cors import CORS
 import requests, json, random
+from geoip import geolite2
+import geocoder
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = 'linuxdegilgnulinux'
 CORS(app)
 
 # Create some test data for our catalog in the form of a list of dictionaries.
@@ -35,6 +38,15 @@ def home():
 @app.route("/api/v1/resources/films", methods=["GET"])
 def all_films():
     return jsonify(films)
+
+
+@app.route("/api/v1/resources/ip_addr", methods=["GET"])
+def get_id_addr():
+    ip_addr = request.environ.get('HTTP_X_REAL_IP', request.remote_addr)
+    info = geocoder.ip(ip_addr)
+    info = info.geojson
+
+    return jsonify({"info": info})
 
 
 # @app.route("/api/v1/resources/films/<int:id>", methods=["GET"])

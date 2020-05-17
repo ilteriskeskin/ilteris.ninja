@@ -5,6 +5,15 @@
 
       <hr />
 
+      <h3 class="postTitle">&#127760; Ip Adresini ve O Adrese Bağlı Bilgileri Gör</h3>
+      <p
+        class="postPreview"
+      >API'a giden sorgu ile ip adresi tespiti yapılıp o ip adresine ait bilgilerin elde edildiği proje.</p>
+      <p class="postDate">Paylaşılma Tarihi: 17.05.2020</p>
+      <router-link to="/info_ip_addr">Projeyi Gör</router-link>
+
+      <hr />
+
       <h3 class="postTitle">&#127909; Rasgele Film Seç</h3>
       <p
         class="postPreview"
