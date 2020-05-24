@@ -5,6 +5,15 @@
 
       <hr />
 
+      <h3 class="postTitle">&#128187; Online Python ve Markdown Editör</h3>
+      <p
+        class="postPreview"
+      >Web tabanlı bir markdown ve python editör projesi.</p>
+      <p class="postDate">Paylaşılma Tarihi: 25.05.2020</p>
+      <a href="https://editor.ilteris.ninja" target="blank">Projeyi Gör</a>
+
+      <hr />
+
       <h3 class="postTitle">&#127760; Ip Adresini ve O Adrese Bağlı Bilgileri Gör</h3>
       <p
         class="postPreview"
