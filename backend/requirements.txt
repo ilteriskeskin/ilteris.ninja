@@ -10,7 +10,7 @@ future==0.18.2
 geocoder==1.38.1
 idna==2.9
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 maxminddb==1.5.4
 python-geoip==1.2
